@@ -16,10 +16,11 @@ while , the Frequent Pattern Growth Algorithm was employed to identify the datas
 
 ### 1. Data Preprocessing and Validation: 
 The major cleaning done on the dataset under data preprocessing was to drop the duplicates in the dataset using the dropDuplicates() command which after being done, the number of rows reduced to 289953 while the data was validated for missing and noisy dataset which none was found.
-<img width="353" alt="duplicate dropping" src="https://github.com/Anthonyomowumi/Big-Data-repo/assets/93340041/87e9be4a-558b-4dcd-bd31-b6e0e5e9686d">
-
-
 
 ### 2. Exploratory Analysis and Data Visualization: 
-The Pandas’ library was used to create a data frame (table-like) format that makes it simple to apply Matplotlib, Seaborn, and Plotly on the dataset for data visualization
+Numeric transformations, such as country-wise and artist-wise distribution, as well as calculating averages by country and sex, along with user distribution, were conducted on the dataframe utilizing the groupby method. These transformations were visually depicted through bar charts using the visualization libraries provided by Pandas, namely Matplotlib and Seaborn.
 
+### 3. Association Rule Mining using FP Growth
+The frequent itemset mining analysis is implemented using the FP-Growth machine learning algorithm with weights of 70% train data and 30% test data yielding 10534 for model training and 4466 for testing the model's performance. the dataset was first grouped to include every artist a user is currently listening to. Frequent pattern mining aims to find all the “interesting rules” that minimum support and confidence threshold that give all possible associations among the frequent music artists.  For frequent item mining and association rule generation, 3 hyperparameter tuning was done to get the optimal minSupport (S) and minConfidence (C) that will best suit for training the model which will aid maximize the model’s predictive accuracy (To evaluate which model has the best music recommendation performance)
+
+## IV. 
