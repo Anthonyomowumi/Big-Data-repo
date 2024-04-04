@@ -12,5 +12,8 @@ The methodology for this project involved applying four techniques within the bi
 
 Pyspark, a python API for spark was used to read and analyze the dataset in Google Collab programmatically. Also, the Pandas’ library was used to create a data frame (table-like) format that makes it simple to apply Matplotlib, Seaborn, and Plotly on the dataset for data visualization while , the Frequent Pattern Growth Algorithm was employed to identify the dataset's frequently occurring patterns.
 
-### 1.) Data Preprocessing and Validation: The major cleaning done on the dataset under data preprocessing was to drop the duplicates in the dataset using the dropDuplicates() command which after being done, the number of rows reduced to 289953 while the data was validated for missing and noisy dataset which none was found.
+### 1. Data Preprocessing and Validation: 
+The major cleaning done on the dataset under data preprocessing was to drop the duplicates in the dataset using the dropDuplicates() command which after being done, the number of rows reduced to 289953 while the data was validated for missing and noisy dataset which none was found.
 
+### 2. Exploratory Analysis and Data Visualization: 
+The Pandas’ library was used to create a data frame (table-like) format that makes it simple to apply Matplotlib, Seaborn, and Plotly on the dataset for data visualization
