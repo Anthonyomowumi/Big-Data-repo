@@ -1,12 +1,11 @@
 # APPLICATION OF FP GROWTH ALGORITHM IN THE RECOMMENDATION OF NEW ARTISTS FOR USER
 
-#Abstract
+## I. Project Summary
+This research was done to recommend/forecast which artist labels people are interested in, by analyzing trends in the listening behaviors of radio listeners’ datasets using FP Growth, one pf Association mining algorithms
 
-Getting useful insights from a large amount of data collected and stored in databases across various fields involves the use of some data science processes. 
-Association mining is one of the widely used techniques in finding frequent patterns (Frequent Itemset), associations, and correlations among datasets. 
-In this paper, a lastfm dataset containing the history of various artists that different users are listening to in their different countries. 
-The dataset has 289955 rows with 4 features. Python and spark were used to analyze and explore the dataset. 
-An unsupervised Machine learning algorithm called the FP-Growth algorithm was used in the study to make recommendations for users based on the artists they were listening to.
-70% dataset split was used to train the algorithm. 
-1688 was recorded as the frequent itemset/pattern noticed in the dataset and 487 association rules. 
-The 30% test dataset was used to make predictions for the users.
+## II. Dataset Description
+The domain of the dataset is related to music. The lastfm dataset used for the study has 289955 records across 4 columns (user, artist, sex, and country). The lastfm dataset was examined using a common data mining and modeling methodology. 
+
+## III. Methodology
+The methodology for this project involved applying four techniques within the big data analytics lifecycle. These techniques include: 
+#### 1.) Data Preprocessing 2.) Exploratory Analysis 3.) Data Visualization 4.) Association Rule Mining using FP Growth Algorithm
