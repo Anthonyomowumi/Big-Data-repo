@@ -22,3 +22,4 @@ The major cleaning done on the dataset under data preprocessing was to drop the 
 
 ### 2. Exploratory Analysis and Data Visualization: 
 The Pandas’ library was used to create a data frame (table-like) format that makes it simple to apply Matplotlib, Seaborn, and Plotly on the dataset for data visualization
+
