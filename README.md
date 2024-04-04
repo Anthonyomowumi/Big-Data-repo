@@ -8,12 +8,17 @@ The domain of the dataset is related to music. The lastfm dataset used for the s
 
 ## III. Methodology
 The methodology for this project involved applying four techniques within the big data analytics lifecycle. These techniques include: 
-##### 1.) Data Preprocessing and Validation 2.) Exploratory Analysis 3.) Data Visualization 4.) Association Rule Mining using FP Growth Algorithm 
+##### 1.) Data Preprocessing and Validation 2.) Exploratory Analysis & Data Visualization 3.) Association Rule Mining using FP Growth Algorithm 
 
-Pyspark, a python API for spark was used to read and analyze the dataset in Google Collab programmatically. Also, the Pandas’ library was used to create a data frame (table-like) format that makes it simple to apply Matplotlib, Seaborn, and Plotly on the dataset for data visualization while , the Frequent Pattern Growth Algorithm was employed to identify the dataset's frequently occurring patterns.
+The outlined methodology was executed programmatically on the Google Colab platform using PySpark, the Python API for the Apache Spark framework. PySpark was chosen for its adeptness in managing big data mining tasks, owing to its flexibility, scalability, and rapid execution.
+
+while , the Frequent Pattern Growth Algorithm was employed to identify the dataset's frequently occurring patterns.
 
 ### 1. Data Preprocessing and Validation: 
 The major cleaning done on the dataset under data preprocessing was to drop the duplicates in the dataset using the dropDuplicates() command which after being done, the number of rows reduced to 289953 while the data was validated for missing and noisy dataset which none was found.
+<img width="353" alt="duplicate dropping" src="https://github.com/Anthonyomowumi/Big-Data-repo/assets/93340041/87e9be4a-558b-4dcd-bd31-b6e0e5e9686d">
+
+
 
 ### 2. Exploratory Analysis and Data Visualization: 
 The Pandas’ library was used to create a data frame (table-like) format that makes it simple to apply Matplotlib, Seaborn, and Plotly on the dataset for data visualization
